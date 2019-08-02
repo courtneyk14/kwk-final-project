@@ -1,5 +1,5 @@
-var quoteButton = $('.quoteButton');
-var newQuote = $('.quoteMessage');
+var quoteButton = document.getElementByClass('.quoteButton');
+var newQuote = document.getElementByClass('.quoteMessage');
 var quotes = ["Feminism is the radical notion that women are human beings. - Cheris Kramrae",
 "A feminist is anyone who recognizes the equality and full humanity of women and men. - Gloria Steinem",
 "Feminism isn’t about hating men. It’s about challenging the absurd gender distinctions that boys and girls learn from childhood and carry into their adult lives. - Robert Webb",
