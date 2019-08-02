@@ -1,0 +1,372 @@
+/*  */
+/* THIS IS FOR THE COVER */
+body {
+background-image: url(http://img.alicdn.com/imgextra/i1/168131739/TB2Q.ZkalbM8KJjSZFFXXaynpXa_!!168131739.jpg);background-repeat: no-repeat;height: 1000px
+}
+/* .Cover{ background-image: */
+.topnav {
+  background-color: #595C85;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: lightgrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  top: 0;
+  text-decoration-color: white;
+display: inline-block;
+ text-align:center;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.topnav a:hover {
+  background-color: #97C8DB;
+  color: black;
+}
+
+.topnav{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.topnav a.active {
+  background-color: #CAF9F1;
+  color: white;
+}
+/* .firstpic{
+  display: flex;
+  height: 800px;
+  width:700px;
+  justify-content: center;
+  align-content: center;
+flex-direction: row;
+} */
+
+.cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 200px;
+}
+img{display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+height: 1000px;
+padding: 0px
+
+}
+
+.slogan{font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    left: 0;
+    line-height: 200px;
+    margin-top: 75px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 32px;
+    justify-content: center;
+
+  }
+
+/* THIS IS FOR THE QUOTE PAGE */
+.qtitle{
+  font-size:40px
+}
+.quoteHead {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  size: 100px;
+  color: #595C85;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.quoteHeadTwo {
+  font-size: 80px;
+  color: #C7B7FD;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.quoteMessage {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;font-size: 32px;
+  color:#BA5B73
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 50%;
+  height: auto;
+}
+
+.container .quoteButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  /* color: white; */
+  font-size: 32px;
+  padding: 130px 100px;
+  /* border: #BA5B73 dashed; */
+  cursor: pointer;
+  /* border-radius: 5px; */
+  justify-content: center;
+}
+
+.container .quoteButton:hover {
+  background-color: transparent;}
+  .quoteButton:focus {
+    outline: none;
+  }
+
+.cover {
+align-items: center;
+  display: flex;
+  margin-bottom: -200px;
+  margin-left: ;
+  margin-right: auto;
+  width: 600px;
+  height: 600px;
+  justify-content:
+
+}
+
+.column{
+  display: flex;
+  flex-direction:column;
+  border:none;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo{
+  align-items: center;
+    display: flex;
+    margin-left: ;
+    margin-right: auto;
+    width: 70%;
+  }
+/* THIS IS FOR THE HISTORY PAGE */
+.history-title{text-align: center;
+  color:#595C85;font-family: 'Josefin Sans', sans-serif;
+}
+.trial {font-family: 'Josefin Sans', sans-serif;
+    color: #BA5B73;
+    font-size: 24px;
+    text-align: center;
+}
+
+.waves{
+  font-family: 'Josefin Sans', sans-serif;
+      color: #595C85;font-size: 32px;
+      text-align: center;
+}
+.htext{
+  font-family: 'Josefin Sans', sans-serif;
+      color: #BA5B73;font-size: 24px;
+      text-align: center;
+}
+
+.wavePic {
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* THIS IS FOR THE ABOUT US PAGE */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+	padding: 5px;
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+}
+header {
+	padding: 0 15px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+
+}
+
+footer {
+	padding: 0 15px;
+}
+
+.figurePics1 {
+  height: 500px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.figurePics2 {
+  height: 400px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.figurePics3 {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.figurePics4 {
+  height: 500px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.figurePics5{
+  height: 450px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+		margin-bottom: 5px;
+    flex-basis: 40%;
+		&:nth-last-child(2) {
+			margin-right: 0;
+		}
+		&:last-child {
+			flex-basis: 100%;
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+
+/* THIS IS FOR THE ABOUT US PAGE */
+
+  .founders{text-align: center;
+    color:#595C85;font-family: 'Josefin Sans', sans-serif;
+  }
+.columns{font-family: 'Josefin Sans', sans-serif; font-size: 24px
+}
+#Courtney{color:#945F7E}
+#Layla{color: #CF9393}
+#Sridula{color:#945F7E}
+
+.three{height:300px;width:400px}
+  /* THIS IS FOR THE PICTURE IN QUOUTES */
+.female{
+  align-content: center;
+}
+/* THIS IS FOR THE FIGURES PAGE */
+.figures{
+  text-align: center;
+    color:#595C85;font-family: 'Josefin Sans', sans-serif;
+}
+.name{
+  font-family: 'Josefin Sans', sans-serif;
+      color: #595C85;font-size: 32px;
+      text-align: center;
+}
+.description{
+  font-family: 'Josefin Sans', sans-serif;
+      color: #595C85;font-size: 24px;
+      text-align: center;
+}
+
+
+.title{
+  text-align: center;
+    color:#595C85;font-family: 'Josefin Sans', sans-serif;
+font-size:38px;
+}
+.rtitle{
+  font-family: 'Josefin Sans', sans-serif;
+      color: #595C85;font-size: 32px;
+      text-align: center;
+}
+.rtext{
+  font-family: 'Josefin Sans', sans-serif;
+      color: #595C85;font-size: 24px;
+      text-align: center;
+}
+a{
+  justify-content: center;
+  display: flex;
+  color:#595C85
+}
+
+.row1 {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #595C85;font-size: 32px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.column1 {
+  flex: 50%;
+}
